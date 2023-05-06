@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    margin: 0 auto;
+}
+.head1 {
+    display: flex;
+    background-color: rgb(14, 95, 216);
+    height: 160px;
+    width: 1361px;
+    margin: 0 auto;
+    color: white;
+    align-items: flex-end;
+    background: rgb(64,182,255);
+    background: linear-gradient(0deg, rgba(64,182,255,1) 0%, rgba(44,127,178,1) 100%);
+}
+.tcolor {
+    color: white;
+    padding-top: 15px;
+    padding-left: 500px;
+    
+}
+.logo {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.back {
+    background-image: url(Images/Background.jpg);
+    background-attachment: fixed;
+    height: 2000px;
+}
+
+.text__logo {
+    display: flex;
+    flex-direction: column;
+    font-family: "Tahoma";
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.tel_p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-bottom: 45px;
+    padding-left: 730px;
+    width: 300px;
+    height: 24px;
+    color: white;
+}
+.logo__up {
+    font-size: 35pt;
+}
+
+.logo__down {
+    font-size: 15pt;
+}
+
+.glav_site {
+    background-color: #eceef1;
+    width: 1361px;
+    height: 1950px;
+    margin: 0 auto;
+    font-size: 30pt;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.glav_text1 {
+    padding-left: 23px;
+    padding-top: 15px;
+    font-family: 'Tahoma';
+    color: #4083ff;
+}
+
+.glav_box {
+    height: 385px;
+    width: 645px;
+    margin-left: 23px;
+    position: relative;
+}
+
+.photo_text {
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 20pt;
+    font-family: 'Tahoma';
+    font-weight: bolder;
+}
+.news_city {
+    font-family: 'Tahoma';
+    color: #4083ff;
+    margin-top: 19px;
+    margin-left: 20px;
+    height: 500px;
+}
+.news_text {
+    color:#4083ff ;
+    font-size: 13pt;
+    margin-top: 14px;
+}
+
+.glav_city {
+    background-color:#40b6ff;
+    width: 622px;
+    height: 264px;
+    margin-top: 17px;
+    margin-left: 22px;
+
+    
+}
+
+.glav_city_text {
+    margin-top: 23px;
+    padding-left: 22px;
+    color: #4083ff;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.img_glav {
+    padding-top: 12px;
+    padding-left: 12px;
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    
+}
+
+.glav_city_text1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    padding-left: 233px;
+    padding-top: 18px;
+
+}
+
+.glav_city_text2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-left: 233px;
+    padding-top: 18px;
+
+}
+
+.box {
+width: 250px;
+height: 250px;
+background-color: #40b6ff;
+display: inline-block;
+}
+
+.forma {
+    display: flex;
+
+}
+
+.forma2 {
+    display: flex;
+    height: 442px;
+}
+
+
+.infa_text {
+    margin-top: 19px;
+    padding-left: 41px;
+    color: #4083ff;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.infa_main {
+    margin-top: 20px;
+    background-color: #40b6ff;
+    width: 653px;
+    height: 264px;
+    margin-left: 41px;
+    
+    
+}
+
+.infa_text2 {
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.text_white {
+    width: 623px;
+    height: 125px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border: 0px;
+    resize: none;
+}
+
+.knopka {
+    margin-left: 523px;
+    width: 111px;
+    height: 30px;
+    font-size: 16px;
+    color:#4083ff ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    border: 0px;
+}
+
+.dost_glav {
+    margin-top: 10px;
+    padding-left: 22px;
+    color: #4083ff;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-bottom: 13px;
+    }
+
+.dost_box {
+    background-color: #40b6ff;
+    width: 1315px;
+    height: 1151px;
+    margin-left: 23px;
+}
+
+    .box__item {
+        display: flex;
+        padding: 11px;
+        height: 244px;
+    }
+    .item__text {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        font-weight: bolder;
+        color: white;
+        margin-left: 26px;
+        margin-top: 21px;
+    }
+    .text__dop{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            color: white;
+            margin-left: 26px;
+            margin-top: 21px;
+    }
+    .string {
+        background-color: #4083ff;
+        height: 3px;
+        width: 1269px;
+        margin-left: 23px;
+        margin-top: 24px;
+        border: #4083ff;
+    }
+    .gerb {
+        text-align: center;
+        padding-top: 24px;
+        filter: drop-shadow(0px 0px 1px #181818);
+    }
+    .footer_text {
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 2;
+    }
+    .links {
+        margin-left: 471px;
+        letter-spacing: 9px;
+    }
+    .p {
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: white;
+    }

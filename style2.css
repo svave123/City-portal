@@ -1,0 +1,115 @@
+body {
+    max-width: 4000px;
+    background-image:url(Images/Background.jpg);
+    background-attachment: fixed;
+    margin: 0%;
+}
+header {
+    width: 1361px;
+    height: 154px;
+    background: rgb(64,182,255);
+    background: linear-gradient(0deg, rgba(64,182,255,1) 0%, rgba(44,127,178,1) 100%);
+    margin-left: 277px;
+}
+.logo {
+    padding-left: 35px;
+    padding-top: 9px;
+    display: flex;
+}
+.text {
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 0px;
+    height: 58px;
+}
+.gorod_p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 95px;
+    padding-left: 3px;
+    width: 300px;
+    height: 24px;
+}
+.tel_p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 74px;
+    padding-left: 600px;
+    width: 300px;
+    height: 24px;
+    color: white;
+}
+main{
+    width: 1361px;
+    height: 100%;
+    background-color: #eceef1;
+    margin-left: 277px;
+}
+.glava {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #4083ff;
+    text-align: center;
+    padding-top: 5px;
+}
+.golub_main {
+    width: 1284px;
+    height: 1080px;
+    background-color: #40b6ff;
+    margin-left: 39px;
+    margin-top: 8px;
+}
+.picture {
+    width: 536px;
+    height: 626px;
+    padding-top: 42px;
+    margin-left: 42px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+}
+.glav_text {
+    padding-top: 22px;
+    padding-left: 635px;
+    padding-right: 40px;
+    font-size: 17.4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.string {
+    background-color: #4083ff;
+    height: 3px;
+    width: 1224px;
+    margin-top: 101px;
+    border: #4083ff;
+}
+.gerb {
+    text-align: center;
+    padding-top: 24px;
+    filter: drop-shadow(0px 0px 1px #181818);
+}
+.footer_text {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+}
+.links {
+    margin-left: 471px;
+    letter-spacing: 9px;
+}
+.p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
